@@ -10,6 +10,7 @@ sudo sysctl -w net.ipv4.ip_forward=1
 ```bash
 docker compose up --build -d
 ```
+- Web-interface on http://host:5000
 
 ## Official repo and docs
 https://github.com/ngoduykhanh/wireguard-ui
