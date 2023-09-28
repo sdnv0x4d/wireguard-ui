@@ -12,5 +12,9 @@ docker compose up --build -d
 ```
 - Web-interface on http://host:5000
 
+## Info
+- Meta IPs in Extra Allowed IPs
+- For LAN-access set `WGUI_DNS` and `WGUI_DEFAULT_CLIENT_ALLOWED_IPS`
+
 ## Official repo and docs
 https://github.com/ngoduykhanh/wireguard-ui
