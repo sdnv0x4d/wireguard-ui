@@ -6,6 +6,12 @@ Wireguard VPN with web-interface.
 ```bash
 sudo sysctl -w net.ipv4.ip_forward=1
 ```
+- Set or delete env variables
+```
+WGUI_ENDPOINT_ADDRESS
+TELEGRAM_TOKEN
+```
+
 - Build and Start Docker containers
 ```bash
 docker compose up --build -d
